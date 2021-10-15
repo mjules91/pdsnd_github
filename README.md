@@ -11,3 +11,6 @@ this project is about analysing how bikes have been shared in 3 cities(new york,
 
 ### Files used
 i use bikeshare.py,chicago.csv,new_york_city.csv,washington.csv
+
+### work done on bikeshare.py
+in this project i created various function that compute differents statistics on the mentioned cities
