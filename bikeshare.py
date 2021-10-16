@@ -9,7 +9,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
-#function to get user input
+<<<<<<< HEAD
+
+||||||| 05ff63b
+
+=======
+#function to filter user input
+>>>>>>> documentation
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -143,7 +149,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#this function is just for trip duration statistics analysis
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration.
     Args:
