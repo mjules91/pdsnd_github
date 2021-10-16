@@ -14,7 +14,7 @@ i use bikeshare.py,chicago.csv,new_york_city.csv,washington.csv
 
 ### work done on bikeshare.py
 in this project i created various function that compute differents statistics on the mentioned cities
-and i used python
+
 
 ### contact info
 email:mugabejules91@gmail.com
