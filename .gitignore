@@ -1,2 +1,7 @@
 .github/**
-.csv
+*.csv
+*.log
+*.lock
+*.tmp
+*.DS_Store
+Thumbs.db
