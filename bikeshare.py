@@ -14,7 +14,7 @@ DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sund
 ||||||| 05ff63b
 
 =======
-#function to filter user input
+
 >>>>>>> documentation
 def get_filters():
     """
@@ -215,12 +215,20 @@ def display_raw_data(df):
         next = next + 5
         print(df.iloc[next:next+5])
 
-
+def tips() 
+    print("world is bether place")
+    
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
+<<<<<<< HEAD
         
+||||||| 65ca9c3
+
+=======
+        tips()
+>>>>>>> refactoring
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
