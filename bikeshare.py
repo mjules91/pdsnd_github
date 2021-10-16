@@ -209,14 +209,13 @@ def display_raw_data(df):
         next = next + 5
         print(df.iloc[next:next+5])
 
-def address() 
+def tips() 
     print("world is bether place")
     
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        address()
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
